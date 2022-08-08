@@ -490,7 +490,7 @@ a:focus {
     background-color: #636c79;
     margin-left: -40px;
     margin-right: -40px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
   }
 
   .nav-container {
@@ -585,7 +585,57 @@ a:focus {
     border: none;
   }
 
-  .section-1,
+  .section-1 {
+    text-align: center;
+    margin-bottom: 150px;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  
+  .section-1-header {
+    font-size: 35px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    color: #1b1d21;
+    margin-bottom: 20px;
+  }
+  
+  .section-1-numbers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+  }
+  
+  .section-1-numbers div {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .section-1-numbers div:first-child {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .section-1-numbers div h3 {
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .section-1-numbers div p {
+    color: #616161;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+  .section-1-video {
+    width: 100%;
+    height: 400px;
+  }
+
   .section-2,
   .section-3,
   .section-4 {
